@@ -1,0 +1,54 @@
+name: apkmasak
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  path_provider: ^2.0.15
+  connectivity_plus: ^4.0.1
+  get: ^4.6.6
+  get_storage: ^2.0.3
+  cloud_firestore: ^4.8.0
+  firebase_core: ^2.15.1
+  font_awesome_flutter: ^10.0.0
+  shared_preferences: ^2.1.0
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  permission_handler: ^9.2.0
+  # Untuk membuka Google Maps
+  google_maps_flutter: ^2.6.1
+  google_maps_flutter_web: ^0.5.10
+  url_launcher: ^6.1.5
+  image_picker: ^1.0.8
+  provider: ^6.1.2
+  flutter_webview_plugin: ^0.4.0
+
+    # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/chef_image.png
+    - assets/background.png
+    - assets/login_image.png
+    - assets/register_image.png
